@@ -32,99 +32,99 @@
         </h1>
 
         <div class="food-carousel">
-            <div class="food-container" onclick="selectPrincipalMeal()">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="food-container" onclick="selectPrincipalMeal(this, 'f1')">
+                <img src="./assets/churrasco.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Frango Yin Yang
+                    Churrasco
                 </h1>
 
                 <p class="food-description">
-                    Um pouco de batata, um pouco de salada.
+                    Churrasco tradicional gaúcho.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 14,90
+                        R$ 34,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="unverified" alt="">
+
+                    <ion-icon name="checkmark-circle" id='f1' class="icon-unverified"></ion-icon>
                 </div>
             </div>
 
-            <div class="food-container" onclick="selectPrincipalMeal()">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="food-container" onclick="selectPrincipalMeal(this, 'f2')">
+                <img src="./assets/feijoada.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Frango Yin Yang
+                    Feijoada
                 </h1>
 
                 <p class="food-description">
-                    Um pouco de batata, um pouco de salada.
+                    O prato mais amado do brasileiro.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 14,90
+                        R$ 24,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="unverified" alt="">
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="f2"></ion-icon>
                 </div>
             </div>
 
-            <div class="food-container" onclick="selectPrincipalMeal()">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="food-container" onclick="selectPrincipalMeal(this, 'f3')">
+                <img src="./assets/pizzacalabresa.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Frango Yin Yang
+                    Pizza Calabresa
                 </h1>
 
                 <p class="food-description">
-                    Um pouco de batata, um pouco de salada.
+                    Pizza calabresa tamanho pequeno.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 14,90
+                        R$ 15,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="unverified" alt="">
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="f3"></ion-icon>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="food-main-container">
+    <div class="drink-main-container">
         <h1 class="title">
             Agora, sua bebida
         </h1>
 
         <div class="food-carousel">
-            <div class="food-container">
-                <img src="./assets/coquinha_gelada.png" alt="">
+            <div class="drink-container" onclick="selectDrink(this, 'd1')">
+                <img src="./assets/sucomorango.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Coquinha gelada
+                    Suco de Morango
                 </h1>
 
                 <p class="food-description">
-                    Lata 350ml.
+                    Copo 250ml.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 4,90
+                        R$ 8,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="d1"></ion-icon>
                 </div>
             </div>
 
-            <div class="food-container">
-                <img src="./assets/coquinha_gelada.png" alt="">
+            <div class="drink-container" onclick="selectDrink(this, 'd2')">
+                <img src="./assets/pepsi.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Coquinha gelada
+                    Pepsi
                 </h1>
 
                 <p class="food-description">
@@ -133,30 +133,30 @@
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 4,90
+                        R$ 3,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="d2"></ion-icon>
                 </div>
             </div>
 
-            <div class="food-container">
-                <img src="./assets/coquinha_gelada.png" alt="">
+            <div class="drink-container" onclick="selectDrink(this, 'd3')">
+                <img src="./assets/chivas.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Coquinha gelada
+                    Chivas Royal Salute
                 </h1>
 
                 <p class="food-description">
-                    Lata 350ml.
+                    Garrafa 700ml.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 4,90
+                        R$ 854,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="d3"></ion-icon>
                 </div>
             </div>
         </div>
@@ -168,64 +168,64 @@
         </h1>
 
         <div class="food-carousel">
-            <div class="food-container">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="dessert-container" onclick="selectDessert(this, 'ds1')">
+                <img src="./assets/sorvetemorango.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Pudim
+                    Sorvete de Gelatina
                 </h1>
 
                 <p class="food-description">
-                    Apenas pudim.
+                    Para alegrar seus dias quentes.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 7,90
+                        R$ 7,00
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
-                </div>                
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="ds1"></ion-icon>
+                </div>
             </div>
 
-            <div class="food-container">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="dessert-container" onclick="selectDessert(this, 'ds2')">
+                <img src="./assets/bolocenoura.jpeg" alt="">
 
                 <h1 class="food-name">
-                    Pudim
+                    Bolo de Cenoura
                 </h1>
 
                 <p class="food-description">
-                    Apenas pudim.
+                    Pote com 4 fatias, não bolo inteiro.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 7,90
+                        R$ 10,00
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
-                </div>  
+
+                    <ion-icon name="checkmark-circle" class="f2 icon-unverified" id="ds2"></ion-icon>
+                </div>
             </div>
 
-            <div class="food-container">
-                <img src="./assets/frango_yin_yang.png" alt="">
+            <div class="dessert-container" onclick="selectDessert(this, 'ds3')">
+                <img src="./assets/pudim.jpeg" class='correction2' alt="">
 
                 <h1 class="food-name">
                     Pudim
                 </h1>
 
                 <p class="food-description">
-                    Apenas pudim.
+                    Clássico pudim de leite condensado.
                 </p>
 
                 <div class="price-container">
                     <p class="food-price">
-                        R$ 7,90
+                        R$ 12,90
                     </p>
-    
-                    <img src="./assets/verified.svg" class="verified" alt="">
-                </div>  
+
+                    <ion-icon name="checkmark-circle" class="icon-unverified" id="ds3"></ion-icon>
+                </div>
             </div>
         </div>
     </div>
@@ -236,6 +236,7 @@
         </button>
     </footer>
 
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
 

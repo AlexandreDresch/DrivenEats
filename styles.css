@@ -59,7 +59,9 @@ a {
 /* GLOBAL */
 
 body {
+    //max-width: 425px;
     font-family: Righteous;
+    box-sizing: border-box;
     padding-top: 160px;
     padding-left: 20px;
     padding-right: 20px;
@@ -100,10 +102,11 @@ header h1 {
 }
 
 .food-main-container2 {
+    margin-top: 20px;
     margin-bottom: 110px;
 }
 
-.food-main-container .title, .food-main-container2 .title{
+.food-main-container .title, .drink-main-container .title, .food-main-container2 .title{
     font-size: 26px;
     margin-bottom: 17px;
 }
@@ -121,7 +124,7 @@ header h1 {
     display: none;
 }
 
-.food-container {
+.food-container, .drink-container, .dessert-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,13 +141,16 @@ header h1 {
     background-color: #FFFFFF;
 }
 
-.food-container-selected {
+.food-container-selected, .drink-container-selected, .dessert-container-selected {
     border: 5px solid #32B72F;
     padding: 13px 9px;
 }
 
-.food-container img {    
+.food-container img, .drink-container img, .dessert-container img{    
     width: 100%;
+    height: 96px;
+    min-height: 96px;
+    border-radius: 4px;
 }
 
 .food-name {
@@ -162,7 +168,9 @@ header h1 {
 }
 
 .price-container {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .food-price {
@@ -172,15 +180,12 @@ header h1 {
     color: #000000;
 }
 
-.verified {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    bottom: 0px;
-    right: -60px;
+ion-icon {
+    color: #32B72F;
+    font-size: 20px;
 }
 
-.unverified {
+.icon-unverified {
     display: none;
 }
 
@@ -200,7 +205,7 @@ header h1 {
     }
 
     .footer-container {
-        width: 364px;
+        width: 100%;
         height: 60px;
         border-radius: 50px;
         border: none;
