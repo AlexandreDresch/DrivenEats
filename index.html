@@ -26,16 +26,16 @@
         </p>
     </header>
 
-    <div class="food-main-container">
+    <div data-test="dishes" class="food-main-container">
         <h1 class="title">
             Primeiro, seu prato
         </h1>
 
         <div class="food-carousel">
-            <div class="food-container" onclick="selectPrincipalMeal(this, 'f1')">
+            <div data-test="food-option" class="food-container" onclick="selectPrincipalMeal(this, 'f1')">
                 <img src="./assets/churrasco.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Churrasco
                 </h1>
 
@@ -44,7 +44,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 34,90
                     </p>
 
@@ -52,10 +52,10 @@
                 </div>
             </div>
 
-            <div class="food-container" onclick="selectPrincipalMeal(this, 'f2')">
+            <div data-test="food-option" class="food-container" onclick="selectPrincipalMeal(this, 'f2')">
                 <img src="./assets/feijoada.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Feijoada
                 </h1>
 
@@ -64,7 +64,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 24,90
                     </p>
 
@@ -72,10 +72,10 @@
                 </div>
             </div>
 
-            <div class="food-container" onclick="selectPrincipalMeal(this, 'f3')">
+            <div data-test="food-option" class="food-container" onclick="selectPrincipalMeal(this, 'f3')">
                 <img src="./assets/pizzacalabresa.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Pizza Calabresa
                 </h1>
 
@@ -84,7 +84,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 15,90
                     </p>
 
@@ -94,16 +94,16 @@
         </div>
     </div>
 
-    <div class="drink-main-container">
+    <div data-test="drinks" class="drink-main-container">
         <h1 class="title">
             Agora, sua bebida
         </h1>
 
         <div class="food-carousel">
-            <div class="drink-container" onclick="selectDrink(this, 'd1')">
+            <div data-test="drink-option" class="drink-container" onclick="selectDrink(this, 'd1')">
                 <img src="./assets/sucomorango.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Suco de Morango
                 </h1>
 
@@ -112,7 +112,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 8,90
                     </p>
 
@@ -120,10 +120,10 @@
                 </div>
             </div>
 
-            <div class="drink-container" onclick="selectDrink(this, 'd2')">
+            <div data-test="drink-option" class="drink-container" onclick="selectDrink(this, 'd2')">
                 <img src="./assets/pepsi.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Pepsi
                 </h1>
 
@@ -132,7 +132,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 3,90
                     </p>
 
@@ -140,10 +140,10 @@
                 </div>
             </div>
 
-            <div class="drink-container" onclick="selectDrink(this, 'd3')">
+            <div data-test="drink-option" class="drink-container" onclick="selectDrink(this, 'd3')">
                 <img src="./assets/chivas.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Chivas Royal Salute
                 </h1>
 
@@ -152,7 +152,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 854,90
                     </p>
 
@@ -162,16 +162,16 @@
         </div>
     </div>
 
-    <div class="food-main-container2">
+    <div data-test="desserts" class="food-main-container2">
         <h1 class="title">
             Por fim, sua sobremesa
         </h1>
 
         <div class="food-carousel">
-            <div class="dessert-container" onclick="selectDessert(this, 'ds1')">
+            <div data-test="dessert-option" class="dessert-container" onclick="selectDessert(this, 'ds1')">
                 <img src="./assets/sorvetemorango.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Sorvete de Gelatina
                 </h1>
 
@@ -180,7 +180,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 7,00
                     </p>
 
@@ -188,10 +188,10 @@
                 </div>
             </div>
 
-            <div class="dessert-container" onclick="selectDessert(this, 'ds2')">
+            <div data-test="dessert-option" class="dessert-container" onclick="selectDessert(this, 'ds2')">
                 <img src="./assets/bolocenoura.jpeg" alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Bolo de Cenoura
                 </h1>
 
@@ -200,7 +200,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 10,00
                     </p>
 
@@ -208,10 +208,10 @@
                 </div>
             </div>
 
-            <div class="dessert-container" onclick="selectDessert(this, 'ds3')">
+            <div data-test="dessert-option" class="dessert-container" onclick="selectDessert(this, 'ds3')">
                 <img src="./assets/pudim.jpeg" class='correction2' alt="">
 
-                <h1 class="food-name">
+                <h1 data-test="food-title" class="food-name">
                     Pudim
                 </h1>
 
@@ -220,7 +220,7 @@
                 </p>
 
                 <div class="price-container">
-                    <p class="food-price">
+                    <p data-test="food-price" class="food-price">
                         R$ 12,90
                     </p>
 
@@ -231,8 +231,9 @@
     </div>
 
     <footer>
-        <button class="footer-container" onclick="confirmOrder()">
-            Selecione os 3 itens para fechar o pedido
+        <button data-test="finish-button" class="footer-container" onclick="confirmOrder()">
+            Selecione os 3 itens <br>
+            para fechar o pedido
         </button>
     </footer>
 
